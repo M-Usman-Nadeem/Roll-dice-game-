@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="mainFormSection">
+
+        <form action="" class='form'  id='startGamebutton'>
+
+
+
+            <label class="label" for="playerOne">First Player Name: </label>
+            <input type="text" class="textInput" name="" id="playerOne" required>
+            <label class="label" for="playerTwo">Second Player Name: </label>
+            <input type="text" class="textInput" name="" id="playerTwo" required>
+            <button class="startGamebutton" id='startGamebutton'>Start Game</button>
+        </form>
+    </main>
+    <div class="afterSubmitFormArea hide" id="">
+
+        <main id="AreaofPlaying">
+
+
+        </main>
+        <div class='btns '>
+
+            <button id="game">
+                🔄 New Game
+            </button>
+            <button id="dice">
+                🎲 Roll Dice
+            </button>
+            <button id="changingPlayer">
+                📥 Hold
+            </button>
+        </div>
+        <div id="whiteDiv" class="whiteDiv hide"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

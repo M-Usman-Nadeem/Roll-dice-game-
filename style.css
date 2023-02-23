@@ -1,0 +1,147 @@
+body{
+    
+    
+    background-image:linear-gradient(to  bottom ,rgb(111, 164, 177),rgb(17, 147, 217)) ;
+    height: 100vh;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+text-transform: capitalize;
+}
+.actived{
+    border:5px solid white !important;
+}
+main{
+    display: flex;
+    justify-content: center;
+    /* align-items: ; */
+}
+main div{
+    
+    margin: 1rem;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.btns button{
+    width: 10rem;
+    margin: .5rem;
+    padding: 1rem 1.5rem ;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: .4rem;
+    border: none;
+
+}
+.player1,
+.player2{
+    width: 40%;
+    height: 75vh;
+    background-image:linear-gradient(to top ,rgb(85, 169, 190),lightblue) ;
+    border-radius: 1rem;
+    
+    /* margin: 2rem; */
+    /* display: inline-block; */
+    color: aliceblue;
+    /* position: relative; */
+  
+}
+#pl1Text,
+#pl2Text{
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+   
+}
+.whiteDiv{
+background-image:linear-gradient(to top right,lightskyblue,lightblue) ;
+width: 10rem;
+color: rgb(128, 174, 233);
+border-radius: 1rem;
+height: 10rem;
+position: absolute;
+/* z-index: 11; */
+top: 40%;
+left: 44%;
+font-size: 5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+button{
+    cursor: pointer !important;
+}
+.hide{
+    display: none !important;
+}
+
+.mainFormSection{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 100vh;
+font-family: Arial, Helvetica, sans-serif;
+/* line-height: 1.3rem; */
+background-image:linear-gradient(to  bottom ,rgb(111, 164, 177),rgb(17, 147, 217)) ;
+
+}
+form.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 1rem;
+    width: 20rem;
+    height: 60vh;
+    /* background-color: antiquewhite; */
+background-image:linear-gradient(to top right ,rgb(5, 195, 243),rgb(127, 211, 238),rgb(61, 194, 238)) ;
+
+    padding: 2rem;
+}
+
+.textInput{
+    width: 100% !important;
+    padding:.5rem ;
+    border: none;
+    border:1px solid lightblue ;
+    border-radius: .3rem;
+    font-size: inherit;
+}
+.textInput:focus
+{
+    outline: none;
+}
+.label{
+    align-self: flex-start;
+    display: block;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    /* padding: .3rem 0rem; */
+    line-height: 7vh;
+}
+.startGamebutton{
+    width: 10rem;
+margin-top: 2rem;
+padding: 1rem 1.5rem ;
+font-weight: bold;
+font-size: 1rem;
+border-radius: .4rem;
+border: none;
+align-self: center ;
+cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
